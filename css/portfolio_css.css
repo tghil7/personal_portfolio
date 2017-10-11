@@ -1,0 +1,429 @@
+/*
+	*
+	* NEXUS
+	*
+	*
+*/
+
+@media screen and (min-width: 0px) and (max-width: 450px){
+	
+    body{
+		padding: 10%;
+		display: flex;
+		font-family: 'Dosis', sans-serif;
+		margin: 3%;
+	}
+	
+	#main{
+		
+		height: 100%;
+		width: 100%;
+		margin: 2%;
+	}
+	
+	#header{
+		border-bottom: thick solid gray;	
+	}
+	
+	figcaption{
+		font-size: x-small;
+	}
+	
+	
+    #blue{	
+		background-color: #02b3e4;	
+		font-size: xx-small;
+	}
+	
+    #gray{	
+		background-color: #2d3c49;
+		font-size: xx-small;
+	}
+	
+    #silver{	
+		background-color: #7d97ad;
+		font-size: xx-small;
+	}
+	
+    .square{
+		width: 100%;
+		height: 38.94px;
+		border: 1px hidden blue;
+		color: gray;
+	}
+	
+    .userInfo{
+		width: 75%;
+		height: inherit;
+		float: right;
+		padding-top: 25px;
+		padding-bottom: 15px;
+		font-family: 'Dosis', sans-serif; 
+		color: black;
+		text-align: right;
+		
+	}
+	
+    #userName{
+		font-size: larger;
+	}
+	
+    #title{
+		font-size: xx-small;
+	}
+	
+    #mainImgDiv{
+		margin-top: 20px;
+		margin-bottom: 20px;  
+	}
+	
+	
+	
+	.logo{
+		width: 100%;
+		height: auto;
+	}
+	
+	
+	
+	.mainImage{
+		width: 100%;
+		height: auto;
+	}
+	
+	.bottomImage{
+		width: 100%;
+		height: auto;
+		
+	}
+	
+	a:link{
+		color:black;
+	}
+	
+	.container{
+	    display: flex;
+	}
+	
+	
+	
+	
+	
+	
+    aside{
+		width: 10%;
+		vertical-align: text-top;
+		height: 100%;
+		border-style: hidden;
+		padding-top: 71px;
+		color: gray;
+	} 
+	
+	p{
+		color: black;
+		font-size: small;
+	}
+	
+	span{
+		
+		color: gray;
+	}
+	
+}
+
+/*
+    *
+	*
+	*
+	* IPAD DISPLAY
+	*
+	*
+*/
+
+@media screen and (min-width: 451px) and (max-width: 769px){
+	
+	body{
+		padding: 75px;
+		display: flex;
+		font-family: 'Dosis', sans-serif;
+		margin: 5%;
+	}
+	
+	#main{
+		height: 100%;
+		margin: 5%;
+		width: 100%;
+	}
+	
+	#header{
+		border-bottom: thick solid gray;	
+	}
+	
+	
+    #blue{	
+		background-color: #02b3e4;
+		
+    	
+	}
+	
+    #gray{	
+		background-color: #2d3c49;		
+	}
+	
+    #silver{	
+		background-color: #7d97ad;
+	}
+	
+	
+    .userInfo{
+		width: 70%;
+		height: 20%;
+		float: right;
+		text-align: right;
+		vertical-align: text-top; 
+		color: black;		
+		
+	}
+	
+    #userName{
+		font-size: x-large;
+	}
+	
+    #title{
+		font-size: small;
+	}
+	
+    #mainImgDiv{
+		margin-top: 20px;
+		margin-bottom: 20px;  
+	}
+	
+	.mainImage{
+		width: 100%;
+		height: auto;
+	}
+	
+	.logo{
+		width: 100%;
+		height: auto;
+	}
+	
+	.bottomImage{
+		width: 100%;
+		height: auto;
+		vertical-align: top;     		
+	}
+	
+	#featureWork{
+		width: 100%;		
+	}
+	
+	.flex-container{
+	    display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	
+	.container{
+	    display: flex;
+	    justify-content: space-between;
+	}
+	
+	
+	
+	a:link{
+		color:black;
+		justify-content: center;
+	}
+	
+	figcaption{
+		margin: 0px;
+		width: inherit;
+		
+	}
+	
+	
+    aside{
+		width: 8%;
+		vertical-align: text-top;
+		height: 100%;
+		border-style: hidden;
+		padding-top: 140px;
+		text-align: right;
+		font-size: x-large;
+		color: gray;
+		margin: 25px;
+		
+	}
+	
+	label{
+		text-align: center;
+	}
+	
+	
+	
+	span{
+		font-size: xx-large;
+		color: gray;
+	}
+	
+	.flex-item {
+		justify-content:flex-end;
+	}
+	
+	
+	
+}
+
+
+/*
+	*
+	*
+	*
+	*
+	*
+	*
+	* DESKTOP DISPLAY
+	*
+	*
+	*
+	*
+	*
+	*
+*/
+
+@media screen and (min-width: 770px){
+	
+	body{
+		padding: 75px;
+		display: flex;
+		font-family: 'Dosis', sans-serif;
+	}
+	
+	#main{
+		height: 100%;
+		margin-left: 10px;
+		width: 100%;
+	}
+	
+	#header{
+		border-bottom: thick solid gray;	
+	}
+	
+	
+    #blue{	
+		background-color: #02b3e4;
+		
+    	
+	}
+	
+    #gray{	
+		background-color: #2d3c49;		
+	}
+	
+    #silver{	
+		background-color: #7d97ad;
+	}
+	
+    .square{
+		width: 100%;
+		height: 75px;
+		border: 1px hidden blue;
+	}
+	
+    .userInfo{
+		width: 75%;
+		height: inherit;
+		float: right;
+		text-align: right;
+		vertical-align: text-top; 
+		color: black;		
+		
+	}
+	
+    #userName{
+		font-size: xx-large;
+	}
+	
+    #title{
+		font-size: small;
+	}
+	
+    #mainImgDiv{
+		margin-top: 20px;
+		margin-bottom: 20px;  
+	}
+	
+	.mainImage{
+		width: 100%;
+		height: auto;
+	}
+	
+	.logo{
+		width: 100%;
+		height: auto;
+	}
+	
+	.bottomImage{
+		width: 100%;
+		height: auto;
+		vertical-align: top;     		
+	}
+	
+	#featureWork{
+		width: 100%;
+		display: flex;
+		
+		
+	}
+	
+	.container{
+	    display: flex;
+	    justify-content: space-around;
+	}
+	
+figure{
+width: 25%;
+padding: 0;
+text-align: center;
+float: left;
+}
+
+a:link{
+color:black;
+
+}
+
+figcaption{
+margin: 0px;
+width: 25%;
+
+}
+
+
+aside{
+width: 8%;
+vertical-align: text-top;
+height: 100%;
+border-style: hidden;
+padding-top: 140px;
+text-align: right;
+font-size: x-large;
+color: gray;
+margin: 25px;
+
+}
+
+label{
+text-align: center;
+}
+
+
+
+span{
+font-size: xx-large;
+color: gray;
+}
+
+
+}  

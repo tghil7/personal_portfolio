@@ -1,0 +1,19 @@
+ @media screen and (min-width: 0px) and (max-width: 400px){
+ background-color: red;
+ }
+ 
+ @media screen and (min-width: 401px) and (max-width: 599px){
+   background-color: green;
+ }
+ 
+ @media screen and (min-width: 600px){
+  * background-color: blue;
+ }
+ 
+ <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+ 
+ C:\Users\Anicet\Documents\Udacity
+ 
+ C:\Users\Anicet\Documents\Udacity\udacity-git-course\new-git-project
+
+ 8aa66
