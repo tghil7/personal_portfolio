@@ -5,28 +5,46 @@
 	*
 */
 
-@media screen and (min-width: 0px) and (max-width: 450px){
+@media screen and (max-width: 600px){
 	
     body{
-		padding: 10%;
+		padding: 2%;
 		display: flex;
-		font-family: 'Dosis', sans-serif;
+		font-family: 'Pontano Sans', sans-serif !important;
 		margin: 3%;
 	}
 	
 	#main{
-		
 		height: 100%;
 		width: 100%;
-		margin: 2%;
+		margin: 1%;		
+	}
+	
+	
+	
+	textarea{
+	   width: 100%;
 	}
 	
 	#header{
-		border-bottom: thick solid gray;	
+		border-bottom: thick solid gray;
+		display: flex;
+		width: 100%;
+		
 	}
 	
+	
+	#contactMe{
+	 border-style: solid;
+	 padding: 2%;
+	 background-color: brown;
+	}
 	figcaption{
 		font-size: x-small;
+	}
+	
+	.weblink{
+	  background-color: rgba(255, 255, 128, .5);
 	}
 	
 	
@@ -45,27 +63,38 @@
 		font-size: xx-small;
 	}
 	
-    .square{
+	#aboutMe{
+	    background-image: url('../img/deskPic5.jpg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		color: #990000;
+		margin-top: 2%;
+		padding-bottom: 10%;
+		display: flex;
 		width: 100%;
-		height: 38.94px;
-		border: 1px hidden blue;
-		color: gray;
 	}
+	
+	#featureWork{
+		width: 100%;
+		display: flex;
+		margin-top: 5%;
+		flex-wrap: wrap;
+		justify-content: center;
+		
+		
+	}
+    
 	
     .userInfo{
 		width: 75%;
 		height: inherit;
 		float: right;
-		padding-top: 25px;
-		padding-bottom: 15px;
 		font-family: 'Dosis', sans-serif; 
-		color: black;
-		text-align: right;
-		
+		color: black;		
 	}
 	
     #userName{
-		font-size: larger;
+		font-size: small;
 	}
 	
     #title{
@@ -76,11 +105,24 @@
 		margin-top: 20px;
 		margin-bottom: 20px;  
 	}
+	#inlineNav{
+        display:none;
+		
+    }
+	
+	.flex-item{
+		align-self: flex-end;
+		
+	}
+	
+	.gray{background-color: #f2f2f2;}
+
 	
 	
 	
 	.logo{
-		width: 100%;
+	   display: flex;
+		width: 75%;
 		height: auto;
 	}
 	
@@ -103,6 +145,8 @@
 	
 	.container{
 	    display: flex;
+		width: 100%;
+		height: auto;
 	}
 	
 	
@@ -119,161 +163,22 @@
 		color: gray;
 	} 
 	
-	p{
-		color: black;
-		font-size: small;
-	}
-	
-	span{
-		
-		color: gray;
-	}
-	
-}
-
-/*
-    *
-	*
-	*
-	* IPAD DISPLAY
-	*
-	*
-*/
-
-@media screen and (min-width: 451px) and (max-width: 769px){
-	
-	body{
-		padding: 75px;
-		display: flex;
-		font-family: 'Dosis', sans-serif;
-		margin: 5%;
-	}
-	
-	#main{
-		height: 100%;
-		margin: 5%;
-		width: 100%;
-	}
-	
-	#header{
-		border-bottom: thick solid gray;	
-	}
-	
-	
-    #blue{	
-		background-color: #02b3e4;
-		
-    	
-	}
-	
-    #gray{	
-		background-color: #2d3c49;		
-	}
-	
-    #silver{	
-		background-color: #7d97ad;
-	}
-	
-	
-    .userInfo{
-		width: 70%;
-		height: 20%;
-		float: right;
-		text-align: right;
-		vertical-align: text-top; 
-		color: black;		
-		
-	}
-	
-    #userName{
-		font-size: x-large;
-	}
-	
-    #title{
-		font-size: small;
-	}
-	
-    #mainImgDiv{
-		margin-top: 20px;
-		margin-bottom: 20px;  
-	}
-	
-	.mainImage{
-		width: 100%;
-		height: auto;
-	}
-	
-	.logo{
-		width: 100%;
-		height: auto;
-	}
-	
-	.bottomImage{
-		width: 100%;
-		height: auto;
-		vertical-align: top;     		
-	}
-	
-	#featureWork{
-		width: 100%;		
-	}
-	
-	.flex-container{
-	    display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-	}
-	
-	.container{
-	    display: flex;
-	    justify-content: space-between;
-	}
-	
-	
-	
-	a:link{
-		color:black;
-		justify-content: center;
-	}
-	
-	figcaption{
-		margin: 0px;
-		width: inherit;
-		
-	}
-	
-	
-    aside{
-		width: 8%;
-		vertical-align: text-top;
-		height: 100%;
-		border-style: hidden;
-		padding-top: 140px;
-		text-align: right;
-		font-size: x-large;
-		color: gray;
-		margin: 25px;
-		
-	}
-	
-	label{
-		text-align: center;
-	}
-	
 	
 	
 	span{
-		font-size: xx-large;
+		
 		color: gray;
 	}
 	
-	.flex-item {
-		justify-content:flex-end;
-	}
-	
-	
+	#skills{
+	      display: flex;
+	      color: #3366ff;
+		  justify-content: center;
+		  margin-left: 2%;
+		}
 	
 }
+
 
 
 /*
@@ -292,13 +197,62 @@
 	*
 */
 
-@media screen and (min-width: 770px){
+@media screen and (min-width: 601px){
 	
 	body{
-		padding: 75px;
 		display: flex;
-		font-family: 'Dosis', sans-serif;
+		font-family: 'Pontano Sans', sans-serif !important;
 	}
+	
+	.description-header{ font-size: large;
+		color: #191970 !important;
+		margin:1%;}
+		
+	.description{
+	    text-align: center;
+		margin: 1%;
+		}
+	
+	#skills{
+	      font-size:  larger;
+	      color: #3366ff;
+		  justify-content: center;
+		  margin-left: 20%;
+		}
+	
+	.weblink{
+	  background-color: rgba(255, 255, 128, .5);
+	}
+	
+	.picClass{
+	    display: flex;
+		justify-content: center;
+		}
+		
+	
+	.flex-container{
+	     width: 100%;
+		 height: auto;
+	     display: flex;
+		 flex-wrap: wrap;
+		 justify-content: space-around;
+		 margin-top: 5%;
+		}
+	#aboutMe{
+	    background-image: url('../img/deskPic5.jpg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		color: #990000;
+		margin-top: 2%;
+		padding-bottom: 10%;
+		width: 100%;
+		height: auto;
+		font-size:x-large;
+		display: flex;
+	}
+  #dropNav{
+      display:none;
+  }
 	
 	#main{
 		height: 100%;
@@ -306,8 +260,18 @@
 		width: 100%;
 	}
 	
+	
 	#header{
+	    margin-top: 1%;
 		border-bottom: thick solid gray;	
+		width: inherit;
+		display: flex;
+	}
+	
+	#contactMe{
+	 border-style: solid;
+	 padding: 2%;
+	 background-color: brown;
 	}
 	
 	
@@ -332,10 +296,9 @@
 	}
 	
     .userInfo{
-		width: 75%;
+	    width: 50%;
 		height: inherit;
-		float: right;
-		text-align: right;
+		text-align: left;
 		vertical-align: text-top; 
 		color: black;		
 		
@@ -365,14 +328,17 @@
 	}
 	
 	.bottomImage{
-		width: 100%;
+		width: 25%;
 		height: auto;
-		vertical-align: top;     		
+		 justify-content: center;   		
 	}
 	
 	#featureWork{
 		width: 100%;
 		display: flex;
+		margin-top: 5%;
+		flex-wrap: wrap;
+		justify-content: center;
 		
 		
 	}
@@ -380,14 +346,10 @@
 	.container{
 	    display: flex;
 	    justify-content: space-around;
+		width: 100%;
+		height: auto;
 	}
 	
-figure{
-width: 25%;
-padding: 0;
-text-align: center;
-float: left;
-}
 
 a:link{
 color:black;
@@ -417,6 +379,8 @@ margin: 25px;
 label{
 text-align: center;
 }
+
+.gray{background-color: #f2f2f2;}
 
 
 
