@@ -19,8 +19,9 @@ skill[3] = "Python";
 skill[4] = "Flask";
 skill[5] = "Knockout.js";
 skill[6] = "Javascript";
+skill[7] = "HTML/CSS"
 function displaySkills(){
-    if (curSkill == 6){
+    if (curSkill == 7){
         curSkill = 0;
 		skillSpot.innerHTML = skill[curSkill]; 
 	}
