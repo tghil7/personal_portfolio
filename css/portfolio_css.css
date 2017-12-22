@@ -68,7 +68,7 @@
 	}
 	
 	#aboutMe{
-	    background-image: url('../img/deskPic1.jpg');
+	    background-image: url('../img/deskPic.jpeg');
 		background-repeat: no-repeat;
 		background-size: 100%;
 		color: whitesmoke;
@@ -264,7 +264,7 @@
 		 margin-top: 5%;
 		}
 	#aboutMe{
-	    background-image: url('../img/deskPic1.jpg');
+	    background-image: url('../img/deskPic.jpeg');
 		background-repeat: no-repeat;
 		background-size: 100%;
 		color: whitesmoke;
