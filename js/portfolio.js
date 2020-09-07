@@ -10,7 +10,7 @@ $("#aboutMe").ready(function(){
 var skillSpot = document.getElementById("skills");
 if ( skillSpot != null)
 {
-var skill = new Array(6);
+var skill = new Array(5);
 var curSkill = 0;
 skill[0] = "JQuery";
 skill[1] = "Java";
@@ -20,7 +20,7 @@ skill[4] = "Javascript";
 skill[5] = "HTML/CSS";
 
 function displaySkills(){
-    if (curSkill == 6){
+    if (curSkill == 5){
         curSkill = 0;
 		skillSpot.innerHTML = skill[curSkill]; 
 	}
