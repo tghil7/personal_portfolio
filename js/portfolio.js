@@ -10,19 +10,17 @@ $("#aboutMe").ready(function(){
 var skillSpot = document.getElementById("skills");
 if ( skillSpot != null)
 {
-var skill = new Array(7);
+var skill = new Array(6);
 var curSkill = 0;
 skill[0] = "JQuery";
 skill[1] = "Java";
-skill[2] = "React.js";
-skill[3] = "Python";
-skill[4] = "Flask";
-skill[5] = "C#/ASP.NET Web Forms";
-skill[6] = "Javascript";
-skill[7] = "HTML/CSS";
+skill[2] = "Python";
+skill[3] = "C#/ASP.NET Web Forms";
+skill[4] = "Javascript";
+skill[5] = "HTML/CSS";
 
 function displaySkills(){
-    if (curSkill == 7){
+    if (curSkill == 6){
         curSkill = 0;
 		skillSpot.innerHTML = skill[curSkill]; 
 	}
